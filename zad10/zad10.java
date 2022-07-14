@@ -55,10 +55,14 @@ public class zad10 {
         //zad 6
         char znak;
         for(znak = 'a'; znak<='z'; znak++){
-            System.out.println(znak);
+            System.out.println(znak); // znak to po prostu litera ktora jest reprezentowana tablica ASCI
         }
         System.out.println("Koniec Pentli for z zadania 6");
-
-
+        //mozna to zobaczyc rzutujac znak na inta:
+        //zad 7
+        for(znak = 'A'; znak<='Z'; znak++){
+            System.out.println((int)znak);
+        }
+        System.out.println("Koniec Pentli for z zadania 7");
     }
 }
