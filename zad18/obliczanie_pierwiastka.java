@@ -1,16 +1,18 @@
 package zadania.ksiazka.zad18;
 
+import zadania.ksiazka.zad17.Obiekt;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 import static java.lang.Math.sqrt;
 
-public class obliczanie_pierwiastka {
+public class obliczanie_pierwiastka implements Obiekt {
 
     double a,b,c,delta,x1,x2;
     Scanner scan = new Scanner(System.in);
 
-    public void wpisz_dane()
+    public void czytaj_dane()
     {
         try
         {
@@ -48,7 +50,7 @@ public class obliczanie_pierwiastka {
         }
     }
 
-    public void pokaz_dane()
+    public void wyswietl_dane()
     {
         if(delta>=0)
         {

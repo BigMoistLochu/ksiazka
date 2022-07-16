@@ -2,7 +2,7 @@ package zadania.ksiazka.zad17;
 
 import java.util.Scanner;
 
-public class pole_prostokata {
+public class pole_prostokata implements Obiekt{
     public double a,b,pole;
     Scanner scan = new Scanner(System.in);
 
@@ -15,14 +15,15 @@ public class pole_prostokata {
     }
 
 
-    public double przetworz_dane()
+    public void przetworz_dane()
     {
-       return a*b;
+        pole = a*b;
+        System.out.println(pole);
     }
 
     public void wyswietl_dane()
     {
-        System.out.println("Pole prostokata o bokach: " + a + " i " + b +" rowna sie: " + przetworz_dane());
+        System.out.println("Pole prostokata o bokach: " + a + " i " + b +" rowna sie: ");
     }
 
 

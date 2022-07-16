@@ -10,9 +10,11 @@ public class zad18 {
 
         obliczanie_pierwiastka obiekt = new obliczanie_pierwiastka();
 
-        obiekt.wpisz_dane();
+        obiekt.czytaj_dane();
         obiekt.przetworz_dane();
-        obiekt.pokaz_dane();
+        obiekt.wyswietl_dane();
 
+        System.out.println(obiekt);
+        System.out.println(obiekt.toString());
     }
 }

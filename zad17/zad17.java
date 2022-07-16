@@ -7,7 +7,7 @@ public class zad17 {
         pole_prostokata jeden = new pole_prostokata();
 
         jeden.czytaj_dane();
-
         jeden.wyswietl_dane();
+        jeden.przetworz_dane();
     }
 }
